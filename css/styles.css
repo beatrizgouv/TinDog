@@ -8,6 +8,10 @@ body{
     padding: 3% 15%;
 }
 
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
 #title{
     background-color: #ff4c68;
 }
@@ -15,15 +19,34 @@ body{
 #title h1{
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
     color: white;
 }
 
 .phone {
-    transform: rotate(45deg);
+    transform: rotate(25deg);
+    width: 60%;
 }
 
-.row{
-    margin-top: 20px;
+/* navegation bar*/
+
+.navbar{
+    padding:0 0 4.5rem;
+
+}
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+  
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: 300;
 }

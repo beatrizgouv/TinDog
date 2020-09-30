@@ -11,7 +11,7 @@ body{
 
 #title{
     background-color: #ff4c68;
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
    
 }
 
@@ -27,6 +27,7 @@ body{
     transform: rotate(25deg);
     width: 60%;
     position: absolute;
+    margin-right: 30%;
 }
 
 /* navegation bar*/
@@ -57,8 +58,7 @@ body{
     padding: 7% 15%;
     background-color: white;
     position: relative;
-    z-index: 1;
-   
+    z-index: 1;  
 }
 
 h3{
@@ -72,8 +72,7 @@ p{
 
 .icon{
     color: #ef8172;
-    margin-bottom: 1rem;
-    
+    margin-bottom: 1rem;    
 }
 
 .icon:hover{
@@ -133,3 +132,40 @@ h2{
 .pricing-colum{
     padding: 3% 2%;
 }
+
+/* cta section*/
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 17% 5%;
+    text-align: center;
+    color: #fff;
+}
+
+/* footer */
+
+#footer{
+    background-color: #fff;
+    padding: 7% 30%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 5px 10px 30px ;
+ 
+}
+
+/* mobile & tablet screen*/
+
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    
+    }
+    .phone{
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+    }
+}
+    
